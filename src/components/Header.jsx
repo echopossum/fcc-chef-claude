@@ -1,7 +1,10 @@
+import logo from "../assets/chef-claude-icon.png";
+
 const Header = () => {
   return (
     <header>
-      <h1>Testing</h1>
+      <img className="logo" src={logo} alt="chef logo" />
+      <h1 className="headerText">Chef Claude</h1>
     </header>
   );
 };
