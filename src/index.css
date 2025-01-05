@@ -48,3 +48,25 @@ main {
   margin-top: 69px;
   width: 600px;
 }
+
+.ingredientInput {
+  width: 399px;
+  height: 40px;
+  border: solid 1px #d1d5db;
+  border-radius: 6px;
+  padding: 9px 13px;
+  font-size: 0.87rem;
+  color: #6b7280;
+}
+
+.addButton {
+  width: 183px;
+  height: 40px;
+  background-color: #141413;
+  border: solid 0px transparent;
+  border-radius: 6px;
+  color: #fafaf8;
+  margin-left: 12px;
+  font-size: 0.87rem;
+  font-family: Inter, sans-serif;
+}
