@@ -7,17 +7,14 @@ const Main = () => {
     <li key={ingredient}>{ingredient}</li>
   ));
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("form subbmitted");
-    const formData = new FormData(event.currentTarget);
-    const newIngredient = formData.get("ingredient");
-    setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
+  const addIngredient = (formData) => {
+    const ingredient = formData.get("ingredient");
+    setIngredients((prevIngredients) => [...prevIngredients, ingredient]);
   };
 
   return (
     <main>
-      <form className="ingredientForm" onSubmit={handleSubmit}>
+      <form className="ingredientForm" action={addIngredient}>
         <input
           className="ingredientInput"
           type="text"
