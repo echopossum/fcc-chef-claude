@@ -71,6 +71,10 @@ main {
   font-family: Inter, sans-serif;
 }
 
+.ingredientsSection {
+  width: 600px;
+}
+
 .ingredientsHeader {
   align-self: flex-start;
   font-weight: 500px;
@@ -119,4 +123,15 @@ main {
   border-radius: 6px;
   font-size: 0.87rem;
   font-weight: 500;
+}
+
+.recipeSection {
+  width: 600px;
+  margin-top: 60px;
+}
+
+.recipeHeader {
+  font-weight: 500px;
+  font-size: 1.87rem;
+  margin-bottom: 24px;
 }
